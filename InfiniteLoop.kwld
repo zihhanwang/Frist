@@ -1,4 +1,21 @@
-2-2-east-inf
-streets 4
-eastwestwalls 4 1 4
-northsouthwalls 4 1 4
+"""
+File: InfiniteLoop.py
+Name: 王姿涵
+------------------------
+This file shows the idea of infinite loop,
+reminding students one of the 3 bugs in using
+while loop
+"""
+
+
+from karel.stanfordkarel import *
+
+
+def main():
+    while front_is_clear():
+        turn_left()
+
+
+####### DO NOT EDIT CODE BELOW THIS LINE ########
+if __name__ == '__main__':
+    execute_karel_task(main)
