@@ -2,7 +2,7 @@
 File: Steeplechase.py
 Name: 王姿涵
 -----------------------------
-TODO:
+王姿涵:
 """
 
 from karel.stanfordkarel import *
